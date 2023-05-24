@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --almost-black: #151515;
+    --white: #ffffff;
+    --gold: #d5966c;
+    --dark-grey: #444444;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+}
+.header{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: auto;
+}
+.header-text{
+    position: relative;
+    width: 30%;
+    height: auto;
+    background: var(--almost-black);
+}
+.header-text h1{
+    position: absolute;
+    top: 25%;
+    left: 41.79%;
+    color: var(--white);
+    font-size: 96px;
+    text-transform: uppercase;
+    line-height: 0.958;
+}
+.header-image{
+    position: relative;
+    width: 30%;
+    height: auto;
+
+}
+.i{
+    position: absolute;
+    top: 23.5%;
+    left: -0.8%;
+    font-size: 96px;
+}
+.lery{
+    position: absolute;
+    top: 36.3%;
+    left: -0.8%;
+    font-size: 96px;
+    text-transform: uppercase;
+}
