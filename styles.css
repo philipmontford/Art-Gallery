@@ -13,6 +13,11 @@
     --gold: #d5966c;
     --dark-grey: #444444;
 }
+
+body{
+    overflow-x: hidden;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -25,6 +30,8 @@ h1, h2, h3, h4{
 
 p{
     font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    color: var(--dark-grey);
 }
 .header{
     position: relative;
@@ -40,7 +47,7 @@ p{
 }
 .header-text h1{
     position: absolute;
-    top: 25%;
+    top: 25.5%;
     left: 41.79%;
     color: var(--white);
     font-size: 96px;
@@ -57,12 +64,37 @@ p{
     position: absolute;
     top: 23.5%;
     left: -0.8%;
-    font-size: 96px;
+    font-size: 100px;
 }
 .lery{
     position: absolute;
-    top: 36.3%;
+    top: 36.1%;
     left: -0.8%;
-    font-size: 96px;
+    font-size: 100px;
     text-transform: uppercase;
 }
+.header-description{
+    position: relative;
+   left: -5%;
+    width: 30%;
+    height: auto;
+    padding-top: 7%;
+
+}
+
+.header-description p{
+    margin-bottom: 25px;
+}
+
+.btn{
+    background: var(--almost-black);
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px 14px;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
