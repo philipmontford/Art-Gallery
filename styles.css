@@ -78,12 +78,16 @@ p{
    left: -5%;
     width: 30%;
     height: auto;
-    padding-top: 7%;
+    padding-top: 8%;
 
 }
 
 .header-description p{
     margin-bottom: 25px;
+}
+
+.header-description span{
+    display: flex;
 }
 
 .btn{
@@ -98,3 +102,22 @@ p{
     cursor: pointer;
 }
 
+.btn:hover{
+    background: var(--gold);
+}
+.btn:active{
+    background: var(--gold);
+}
+
+.header-description span img{
+    background: var(--gold);
+    padding: 6px 10px;
+    cursor: pointer;
+    
+}
+.header-description span img:hover{
+    background: var(--almost-black);
+}
+.header-description span img:active{
+    background: var(--almost-black);
+}
