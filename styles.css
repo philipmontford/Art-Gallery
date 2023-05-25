@@ -37,8 +37,9 @@ p{
     position: relative;
     display: flex;
     width: 90%;
-    height: auto;
+    height: 80vh;
     margin-bottom: 5%;
+
 }
 .header-text{
     position: relative;
@@ -59,24 +60,28 @@ p{
     position: relative;
     width: 30%;
     height: auto;
-
+    background-image: url(assets/desktop/image-hero@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .i{
     position: absolute;
-    top: 23.5%;
-    left: -0.8%;
+    top: 23.7%;
+    left: -1.9%;
     font-size: 100px;
+    z-index: 10;
 }
 .lery{
     position: absolute;
-    top: 36.1%;
+    top: 36.5%;
     left: -0.8%;
     font-size: 100px;
     text-transform: uppercase;
 }
 .header-description{
     position: relative;
-   left: -3%;
+    left: -4%;
     width: 30%;
     height: auto;
     padding-top: 8%;
@@ -84,7 +89,8 @@ p{
 }
 
 .header-description p{
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    font-size: 20px;
 }
 
 .header-description span{
@@ -96,7 +102,7 @@ p{
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding: 10px 14px;
+    padding: 14px 18px;
     font-family: 'Outfit', sans-serif;
     outline: none;
     border: none;
@@ -112,9 +118,8 @@ p{
 
 .header-description span img{
     background: var(--gold);
-    padding: 6px 10px;
-    cursor: pointer;
-    
+    padding: 6px 12px;
+    cursor: pointer;   
 }
 .header-description span img:hover{
     background: var(--almost-black);
@@ -125,22 +130,22 @@ p{
 .the-gallery{
     position: relative;
     display: flex;
-    width: 85%;
+    width: 90%;
     height: auto;
     margin: auto;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .the-gallery-header{
-    width: 42.5%;
-    padding: 20% 0%;
+    position: relative;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
 }
 
 .the-gallery-header h2{
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 65px;
+    font-size: 55px;
     line-height: 1.0;
 }
 
@@ -168,3 +173,7 @@ p{
     background-repeat: no-repeat;
 }
 
+.location{
+    position: absolute;
+    
+}
